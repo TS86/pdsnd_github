@@ -7,7 +7,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'washington': 'washington.csv'}
 
 def print_raw_data(data):
-    '''Displays the RAW Data from dataframe '''
+    '''Displays the RAW Data from dataframe in a 5 line output with request for more'''
     line_counter = 0
     while True:
         print(data[line_counter: line_counter+5])
@@ -22,6 +22,8 @@ def print_iterative(c_name, df):
     Args
         c_name: Column name and printing titel
         df: dataframe to sow
+	returns
+		printing out the user statements
     """
     print("Counts of user {}: ".format(c_name))
     data = df[c_name].value_counts()
