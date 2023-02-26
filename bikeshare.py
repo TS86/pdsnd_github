@@ -22,6 +22,8 @@ def print_iterative(c_name, df):
     Args
         c_name: Column name and printing titel
         df: dataframe to sow
+	returns
+		printing out the user statements
     """
     print("Counts of user {}: ".format(c_name))
     data = df[c_name].value_counts()
