@@ -1,17 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
-Creation Date: 2023-02-26
+Creation Date: 2023-02-26 
 
 ### Project Title
-Bikeshre for github upload
+Bikeshare data analysation
 
 ### Description
-Show how to User Git with git console
+This projects uses Python to analyse some bikeshare data from the U.S. an to provide insights to different timeranges.
+This is achieved by multiple filter selections and three datasets from different cities
 
 ### Files used
 bikeshre.py
+new_york_city.csv
+chicago.csv
+washington.csv
 .gitignore
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks for Udacity to support people in learning new skills
 
