@@ -7,7 +7,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'washington': 'washington.csv'}
 
 def print_raw_data(data):
-    '''Displays the RAW Data from dataframe '''
+    '''Displays the RAW Data from dataframe in a 5 line output with request for more'''
     line_counter = 0
     while True:
         print(data[line_counter: line_counter+5])
