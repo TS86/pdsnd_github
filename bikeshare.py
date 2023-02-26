@@ -224,6 +224,7 @@ def read_all_csv(data_dict):
     print("reading data from csv")
     ret_var = {}
     for key in data_dict.keys():
+		print("reading ... ", ret_var[key])
         ret_var[key] = pd.read_csv(data_dict[key])
     return ret_var
 
