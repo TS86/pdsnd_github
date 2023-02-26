@@ -246,7 +246,7 @@ def extend_data(data_dict):
 
 def main():
     # -> reduce reads in later requests, Could be problematic by big datasets
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('####################################\nHello! Let\'s explore some US bikeshare data!')
     print("but first let me load and prepare all date... ")
     all_data_dict = read_all_csv(CITY_DATA)
     all_data_dict = extend_data(all_data_dict)
